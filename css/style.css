@@ -142,12 +142,59 @@ section h1
     color: #ffffff;
     background: #263749;
 }
-/*#contato
+#contato
+{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 15%;
+}
+.contato-form
+{
+    width: 80%;
+}
+.contato-form h1
+{
+    margin-bottom: 30px;
+}
+.contato-form form input,
+form textarea
+{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    border: 1px solid #263749;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+}
+.contato-form textarea
+{
+    resize: none;
+    height: 200px;
+}
+.contato-form form .btn
 {
     color: #ffffff;
+    display: inline-block;
     background: #263749;
-}*/
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.contato-form form .btn:hover
+{
+    background: #141E28;
 
+}
 /*PARTE DE BAIXO DO SITE*/
 footer
 {
