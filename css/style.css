@@ -72,14 +72,7 @@ nav li a
 }
 
 /*MAIN DO SITE*/
-section
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    width: 100%;
-}
+
 section h1
 {
     font-size: 3em;
@@ -139,15 +132,110 @@ section h1
 }
 #curso
 {
-    color: #ffffff;
     background: #263749;
+    min-height: 110vh;
 }
-/*#contato
+.title-curso h1
+{
+    text-align: center;
+    padding-top: 70px;
+    color: #ffffff;
+}
+.curso-container
+{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 90px;
+}
+.content-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.content-section .card
+{
+    background: #ffffff;
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    align-self: normal;
+}
+.content-section .card img
+{
+    width: 80%;
+    height: auto;
+}
+.content-section .card h2
+{
+    margin: 15px 0px;
+    font-size: 28px;
+}
+.content-section .card p
+{
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0px 15px;
+    margin-bottom: 20px;
+}
+#contato
+{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 15%;
+}
+.contato-form
+{
+    width: 80%;
+}
+.contato-form h1
+{
+    margin-bottom: 30px;
+}
+.contato-form form input,
+form textarea
+{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    border: 1px solid #263749;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+}
+.contato-form textarea
+{
+    resize: none;
+    height: 200px;
+}
+.contato-form form .btn
 {
     color: #ffffff;
+    display: inline-block;
     background: #263749;
-}*/
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.contato-form form .btn:hover
+{
+    background: #141E28;
 
+}
 /*PARTE DE BAIXO DO SITE*/
 footer
 {
