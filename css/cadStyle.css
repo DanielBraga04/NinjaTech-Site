@@ -85,6 +85,7 @@ main form input[type="submit"]:hover {
 /** imagem do ninja**/
 section.images {
     width: 60vw;
+    height: 64vw;
     display: flex;
     padding: 7rem;
 }
